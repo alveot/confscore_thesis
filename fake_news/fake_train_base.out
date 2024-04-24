@@ -1,0 +1,189 @@
+INFO:pytorch_pretrained_bert.tokenization:loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/tang/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+INFO:pytorch_pretrained_bert.modeling:loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz from cache at /home/tang/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba
+INFO:pytorch_pretrained_bert.modeling:extracting archive file /home/tang/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba to temp dir /tmp/tmpo0mqqfmw
+INFO:pytorch_pretrained_bert.modeling:Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+cuda:0
+starting
+Epoch 1/20
+----------
+/raid/data/tang/venv/lib/python3.11/site-packages/torch/optim/lr_scheduler.py:143: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+train total loss: 0.5807 
+train fakeness_acc: 0.7130
+val total loss: 0.5594 
+val fakeness_acc: 0.7411
+Saving with accuracy of 0.7411207576953434 improved over previous 0
+Time taken for epoch1 is 13.966109120845795 minutes
+
+Epoch 2/20
+----------
+train total loss: 0.5665 
+train fakeness_acc: 0.7272
+val total loss: 0.5581 
+val fakeness_acc: 0.7380
+Time taken for epoch2 is 13.922049578030904 minutes
+
+Epoch 3/20
+----------
+train total loss: 0.5591 
+train fakeness_acc: 0.7346
+val total loss: 0.5577 
+val fakeness_acc: 0.7324
+Time taken for epoch3 is 13.930151244004568 minutes
+
+Epoch 4/20
+----------
+train total loss: 0.5571 
+train fakeness_acc: 0.7371
+val total loss: 0.5557 
+val fakeness_acc: 0.7380
+Time taken for epoch4 is 13.978838515281677 minutes
+
+Epoch 5/20
+----------
+train total loss: 0.5508 
+train fakeness_acc: 0.7453
+val total loss: 0.5567 
+val fakeness_acc: 0.7411
+Time taken for epoch5 is 13.975101943810781 minutes
+
+Epoch 6/20
+----------
+train total loss: 0.5470 
+train fakeness_acc: 0.7491
+val total loss: 0.5523 
+val fakeness_acc: 0.7451
+Saving with accuracy of 0.745067087608524 improved over previous 0.7411207576953434
+Time taken for epoch6 is 13.992777585983276 minutes
+
+Epoch 7/20
+----------
+train total loss: 0.5442 
+train fakeness_acc: 0.7541
+val total loss: 0.5536 
+val fakeness_acc: 0.7451
+Time taken for epoch7 is 13.978963760534922 minutes
+
+Epoch 8/20
+----------
+train total loss: 0.5442 
+train fakeness_acc: 0.7543
+val total loss: 0.5549 
+val fakeness_acc: 0.7427
+Time taken for epoch8 is 13.977794579664867 minutes
+
+Epoch 9/20
+----------
+train total loss: 0.5429 
+train fakeness_acc: 0.7562
+val total loss: 0.5550 
+val fakeness_acc: 0.7419
+Time taken for epoch9 is 13.980968940258027 minutes
+
+Epoch 10/20
+----------
+train total loss: 0.5440 
+train fakeness_acc: 0.7541
+val total loss: 0.5551 
+val fakeness_acc: 0.7427
+Time taken for epoch10 is 13.978795556227366 minutes
+
+Epoch 11/20
+----------
+train total loss: 0.5433 
+train fakeness_acc: 0.7562
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch11 is 13.978732808430989 minutes
+
+Epoch 12/20
+----------
+train total loss: 0.5431 
+train fakeness_acc: 0.7538
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch12 is 13.975642323493958 minutes
+
+Epoch 13/20
+----------
+train total loss: 0.5428 
+train fakeness_acc: 0.7558
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch13 is 13.972973414262135 minutes
+
+Epoch 14/20
+----------
+train total loss: 0.5426 
+train fakeness_acc: 0.7548
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch14 is 13.978586713473002 minutes
+
+Epoch 15/20
+----------
+train total loss: 0.5431 
+train fakeness_acc: 0.7560
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch15 is 13.969981288909912 minutes
+
+Epoch 16/20
+----------
+train total loss: 0.5430 
+train fakeness_acc: 0.7548
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch16 is 13.947635233402252 minutes
+
+Epoch 17/20
+----------
+train total loss: 0.5432 
+train fakeness_acc: 0.7549
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch17 is 13.94609744946162 minutes
+
+Epoch 18/20
+----------
+train total loss: 0.5431 
+train fakeness_acc: 0.7561
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch18 is 13.94730566740036 minutes
+
+Epoch 19/20
+----------
+train total loss: 0.5431 
+train fakeness_acc: 0.7543
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch19 is 13.944719851016998 minutes
+
+Epoch 20/20
+----------
+train total loss: 0.5421 
+train fakeness_acc: 0.7564
+val total loss: 0.5551 
+val fakeness_acc: 0.7419
+Time taken for epoch20 is 13.9474556128184 minutes
+
+Training complete in 279m 17s
+Best val Acc: 0.745067
+[array(0.74112076), array(0.74506709)]
+[0.5593927656936194, 0.5522723100085661]
+Saved Accuracy plot
+Saved Loss plot
